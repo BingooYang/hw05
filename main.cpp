@@ -83,7 +83,7 @@ int main() {
             std::cout << do_queryuser(test::username[rand() % 4]) << std::endl;
         });
     }
-
+    std::cout<<"end..."<<std::endl;
     // 作业要求4：等待 tpool 中所有线程都结束后再退出
     return 0;
 }
